@@ -2,7 +2,7 @@
 
 
 namespace HierarchyClasses
-{
+{// абстрактный класс для животный
     abstract class Animal : IAnimal
     {
         public string Name { get; set; }

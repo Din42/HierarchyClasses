@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace HierarchyClasses
-{
+{ //класс для кошек
     internal class Cat : Animal
     {
         public int Ears { get; set; }

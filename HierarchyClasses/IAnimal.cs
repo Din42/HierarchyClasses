@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HierarchyClasses
-{
+{//интерфейс для общих характеристик 
     internal interface IAnimal
     {
         string Name { get; set; }
