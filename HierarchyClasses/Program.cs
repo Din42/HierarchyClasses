@@ -12,10 +12,11 @@ namespace HierarchyClasses
 
             cat.Info(); 
             cat.Sound();
+            cat.OutputFile();
 
             bird.Info();
             bird.Sound();
-
+            bird.OutputFile();
             Console.ReadLine();
         }
     }
