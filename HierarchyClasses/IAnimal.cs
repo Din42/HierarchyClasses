@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HierarchyClasses
 {//интерфейс для общих характеристик 
@@ -13,4 +9,9 @@ namespace HierarchyClasses
         void Sound();
         void Info();
     }
+
+    internal interface IOutput
+    {
+        void OutputFile();
+    } 
 }
