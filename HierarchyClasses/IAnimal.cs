@@ -11,5 +11,6 @@ namespace HierarchyClasses
         string Name { get; set; }
         int Age {  get; set; }
         void Sound();
+        void Info();
     }
 }

@@ -10,7 +10,11 @@ namespace HierarchyClasses
 
         public override void Sound()
         {
-            Console.WriteLine("Мяу");
+            Console.WriteLine("мяукает");
+        }
+        public override void Info()
+        {
+            Console.WriteLine($"Имя {Name},лет {Age} , Ушей {Ears}, лап {Paws}, хвостов {Tail}");
         }
     }
 }
