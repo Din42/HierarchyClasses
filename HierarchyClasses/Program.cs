@@ -14,7 +14,7 @@ namespace HierarchyClasses
 
             bird.Info();
             bird.Sound();
-            
+            Console.ReadLine();
         }
     }
 }

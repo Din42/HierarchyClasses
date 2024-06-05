@@ -13,7 +13,7 @@ namespace HierarchyClasses
         }
         public override void Info()
         {
-            Console.WriteLine($"Лет {Name}, имя {Age}, клюв = {Wings}, хвостов {Tail}");
+            Console.WriteLine($"Имя {Name}, лет {Age}, клюв {Wings}, хвостов {Tail}");
         }
     }
 }
