@@ -15,5 +15,9 @@ namespace HierarchyClasses
         {
             Console.WriteLine($"Имя {Name}, лет {Age}, клюв {Wings}, хвостов {Tail}");
         }
+        public override void OutputFile()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
